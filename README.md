@@ -4,7 +4,7 @@
 
 The Lending Library provides functionality for managing a library of books and a backpack for borrowing and storing books.
 
-The solution consists of the following:
+The solution consists of :
 - `Book`: A class representing a book with properties such as title, author, and number of pages.
 - `Library`: A class implementing the `ILibrary` interface that manages a collection of books. It provides methods for adding, borrowing , returning , and iterating over the books in the library.
 - `Backpack<T>`: A generic class implementing the `IBag<T>` interface that represents a backpack capable of storing items of any type. It provides methods for packing items into the backpack and unpacking items from it.
